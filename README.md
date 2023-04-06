@@ -43,5 +43,7 @@
 ⦁	Иногда админы могут прилететь на рыбалку и спросить сдесь ли вы. Лучше бы вам в это время быть у компьютера чтобы показать что вы живы.
 
 Реквизиты
+
 GitHub: https://github.com/PaulTwelve/AutoFishBot-MajesticRP
+
 Telegram: https://t.me/AutoFishBotMajesticRP

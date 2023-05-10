@@ -90,4 +90,8 @@
 [GitHub](https://github.com/PaulTwelve/AutoFishBot-MajesticRP "Ты уже тут!")  
 [Telegram](https://t.me/AutoFishBotMajesticRP)  
 [YouTube](https://youtu.be/3Y1xHtx78L0)  
-[Соразработчик и монтажёр](https://t.me/gidpolo)
+
+Соразработчик и монтажёр
+<p>
+  <a href="https://t.me/gidpolo"><img src="https://avatars.githubusercontent.com/u/81714886?size=40" alt="gidpolo"></a>
+<p>

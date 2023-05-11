@@ -91,7 +91,7 @@
 ## Ссылки
 Группа Telegram || Обзор на YouTube || Соразработчик и монтажёр
 <p>
-	<a href="https://t.me/AutoFishBotMajesticRP"><img src="https://cdn4.telegram-cdn.org/file/CCfnKXMbgIiap3ZW7h650Cj7K9iIG4jfb10X2aEDKOpu1WqGkKC0eE1bcO3YyQe8EmhhhwVrCac_RI1cIT-KfE5_Qpqus80KpVk6zWfSUgVZwQfpz0NPb__HsyS6l1xAu8KK807iTihwokLQ447jM-0nMgje8ejVrlessChw45UKw8QhTJZIwHJH_Bosh4V0kZ3WEyDv0PBJGtGAFU3nHw4qpqYQTNsAicOGPV-TLWjZjnhTo6pHwQSLGIxo6boo5Sdj-uROTVzBtw-22N5YeEv2UNH-CyQ9ZsrOuz45voA2KnQFeQ18YjzYoGTB_aZy_R4lgmf7vPyaDVYcbg558g.jpg" height="82" hspace="22" alt="AutoFishBotMajesticRP"></a>
+	<a href="https://t.me/AutoFishBotMajesticRP"><img src="https://cdn4.telegram-cdn.org/file/Qv3saULa0piYRHpjt3eu5VjDRfUrfuDHancCPwLV_V7aZOhy5WvMapWBEwUjZUKaXRJ-8oUVtYFL_tcveJXEHov8m7VwVSArMq2cTKoLcID90mR-jG7U6fKOmPLGTVEZlpQtqeIaQVbVrNxx5GqJQBpotodC1vztrgKKOic2tnDHXC_gUbJEji75wIsP-4VJ1y7ghFufgj6g8QAyWhocBs7_eZr6KeV8KqXAFN5BdrCusiJlvb369glKUX82XTWpjxRJfmPaDFZ46TdCdRUcWRV_uTslnbTINmTisraUirn19eec-5pmS5s2h_qlYIszojT7nwJjyurQmvudq8RoKg.jpg" height="82" hspace="22" alt="AutoFishBotMajesticRP"></a>
 	<a href="https://youtu.be/3Y1xHtx78L0"><img src="https://i.ytimg.com/vi/3Y1xHtx78L0/maxresdefault.jpg" height="82" alt="YouTube"></a>
-	<a href="https://t.me/gidpolo"><img src="https://cdn4.telegram-cdn.org/file/U5teww5Kv_awZqaEo723iJ1oRmGoXYAhZFWXulne0Dv7tj4pJmhzYrDOgW_0W6TjHmsepdhatzI3EKM3M4G-xFQzlkB9ENu5qKPyFwfwuBY1zsdGsHAw8mX3YSmri9raz2CerwfmpsO4iJ_IrOso9daOi55LAyx6n_v6ib65T4-G3A6X_oWd-_majrtUOTQgmwRfxhPYackRjyUhzaihhdzQ08M1M3i2KjnSuhqaKe-tHix-NtcOTb0UX36ENL5qDFu2tqhzKaFHOrfbkvJNqrPTqNL8pQTnLxmK63G31dRdoIWSjV-YwBTLudP8cGzDrN7owVF0lyGDjGsiTRFsHg.jpg" height="82" hspace="70" alt="gidpolo"></a>
+	<a href="https://t.me/gidpolo"><img src="https://avatars.githubusercontent.com/u/81714886?v=4" height="82" hspace="70" alt="gidpolo"></a>
 <p>

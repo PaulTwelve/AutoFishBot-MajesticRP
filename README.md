@@ -91,7 +91,7 @@
 ## Ссылки
 Группа Telegram || Обзор на YouTube || Соразработчик и монтажёр
 <p>
-	<a href="https://t.me/AutoFishBotMajesticRP"><img src="https://cdn4.telegram-cdn.org/file/Qv3saULa0piYRHpjt3eu5VjDRfUrfuDHancCPwLV_V7aZOhy5WvMapWBEwUjZUKaXRJ-8oUVtYFL_tcveJXEHov8m7VwVSArMq2cTKoLcID90mR-jG7U6fKOmPLGTVEZlpQtqeIaQVbVrNxx5GqJQBpotodC1vztrgKKOic2tnDHXC_gUbJEji75wIsP-4VJ1y7ghFufgj6g8QAyWhocBs7_eZr6KeV8KqXAFN5BdrCusiJlvb369glKUX82XTWpjxRJfmPaDFZ46TdCdRUcWRV_uTslnbTINmTisraUirn19eec-5pmS5s2h_qlYIszojT7nwJjyurQmvudq8RoKg.jpg" height="82" hspace="22" alt="AutoFishBotMajesticRP"></a>
+	<a href="https://t.me/AutoFishBotMajesticRP"><img src="/Pictures/AutoFishBot.png" height="82" hspace="22" alt="AutoFishBotMajesticRP"></a>
 	<a href="https://youtu.be/3Y1xHtx78L0"><img src="https://i.ytimg.com/vi/3Y1xHtx78L0/maxresdefault.jpg" height="82" alt="YouTube"></a>
 	<a href="https://t.me/gidpolo"><img src="https://avatars.githubusercontent.com/u/81714886?v=4" height="82" hspace="65" alt="gidpolo"></a>
 <p>

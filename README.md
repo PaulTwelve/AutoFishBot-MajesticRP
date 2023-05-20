@@ -95,9 +95,6 @@
 3. Поставьте галочку рядом с ```«Запускать эту программу от имени администратора»```
   
 ## Ссылки
-Группа Telegram || Обзор на YouTube || Соразработчик и монтажёр
-<p>
-	<a href="https://t.me/AutoFishBotMajesticRP"><img src="/Pictures/AutoFishBot.png" height="82" hspace="22" alt="AutoFishBotMajesticRP"></a>
-	<a href="https://youtu.be/3Y1xHtx78L0"><img src="https://i.ytimg.com/vi/3Y1xHtx78L0/maxresdefault.jpg" height="82" alt="YouTube"></a>
-	<a href="https://t.me/gidpolo"><img src="https://avatars.githubusercontent.com/u/81714886?v=4" height="82" hspace="65" alt="gidpolo"></a>
-<p>
+Группа Telegram | Обзор на YouTube | Соразработчик и монтажёр
+--- | --- | ---
+<a href="https://t.me/AutoFishBotMajesticRP"><img src="/Pictures/AutoFishBot.png" height="82" hspace="22" alt="AutoFishBotMajesticRP"></a> | <a href="https://youtu.be/3Y1xHtx78L0"><img src="https://i.ytimg.com/vi/3Y1xHtx78L0/maxresdefault.jpg" height="82" alt="YouTube"></a> | <a href="https://t.me/gidpolo"><img src="https://avatars.githubusercontent.com/u/81714886?v=4" height="82" hspace="65" alt="gidpolo"></a>

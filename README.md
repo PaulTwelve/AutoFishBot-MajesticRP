@@ -53,24 +53,24 @@
 ### ***!!!Важно!!!***
 Убрать посторонние оверлеи или окна которые будут перекрывать поля поиска. (например оверлей Discord)
 
-![Поля](/Pictures/Fields.png)
+![Поля](https://i.ibb.co/V2byz4w/Fields.png)
 
 ### Как отключить оверлей Discord
   
 1. В игре нажимаете: ```Shift + ё```  
 2. Нажимаете на: Шестерёнку
 
-![Шестерёнка](/Pictures/Gear.png)
+![Шестерёнка](https://i.ibb.co/j5J6S8K/Gear.png)
 
 3. Выбираете любое поле КРОМЕ: Левого верхнего
 
-![Настройки](/Pictures/Settings.png)
+![Настройки](https://i.ibb.co/D4PRGYX/Settings.png)
   
 ## Место рыбалки
 
 Скрипт работает на 4-ёх показанных крючках:
 
-![Крючки](/Pictures/Hooks.png)
+![Крючки](https://i.ibb.co/71dthGJ/Hooks.png)
 
 ## Начало рыбалки
   
@@ -113,4 +113,4 @@
 ## Ссылки
 Группа Telegram | Обзор на YouTube | Соразработчик и монтажёр
 --- | --- | ---
-<a href="https://t.me/AutoFishBotMajesticRP"><img src="/Pictures/AutoFishBot.png" height="82" hspace="22" alt="AutoFishBotMajesticRP"></a> | <a href="https://youtu.be/3Y1xHtx78L0"><img src="https://i.ytimg.com/vi/3Y1xHtx78L0/maxresdefault.jpg" height="82" alt="YouTube"></a> | <a href="https://t.me/gidpolo"><img src="https://avatars.githubusercontent.com/u/81714886?v=4" height="82" hspace="65" alt="gidpolo"></a>
+<a href="https://t.me/AutoFishBotMajesticRP"><img src="https://i.ibb.co/0DK91zg/Auto-Fish-Bot.png" height="82" hspace="22" alt="AutoFishBotMajesticRP"></a> | <a href="https://youtu.be/3Y1xHtx78L0"><img src="https://i.ytimg.com/vi/3Y1xHtx78L0/maxresdefault.jpg" height="82" alt="YouTube"></a> | <a href="https://t.me/gidpolo"><img src="https://avatars.githubusercontent.com/u/81714886?v=4" height="82" hspace="65" alt="gidpolo"></a>

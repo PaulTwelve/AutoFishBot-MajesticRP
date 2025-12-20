@@ -24,7 +24,6 @@
 - The bot is maintained and improved by developers.
 - Provides automatic updates.
 - With multiple monitors, you can install [SOFTWARE](#-2), which allows you to safely use your PC while fishing.
-- Works on different [resolutions](#-2).
 - Works with most graphics modifications such as Redux.
 - Instant activation of new users.
 ------
@@ -35,7 +34,7 @@
 - Built-in shutdown timer.
 - Keyboard shortcut to quickly open the main window: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 ------
-<h1 align="center">!!!FISHING IS CURRENTLY BEING UPDATED. AVAILABLE FUNCTIONS: ORANGES, LUMBERJACK, QUARRY!!!</h1>
+<h1 align="center">!!!FISHING IS DISTRIBUTED AMONG ACTIVE USERS!!!</h1>
 
 ------
 
@@ -52,29 +51,16 @@
 ------
 <h2 align="center">Basic information</h2>
 
-- Supported operating system: Windows 8+ (if you have Windows 11, read [next section](#windows-11))
 - If an antivirus besides Windows Defender is installed on your PC, **log out** of it. (disabling without closing may not produce results)
 - Disable extraneous overlays embedded in the game that may overlap the interaction indicators.
 
 ------
 <h2 align="center">Preparatory settings</h2>
 
-```sh
-* required settings
-```
-
 - #### GTA Graphics Settings
 ```sh
-"Screen type" - "Windowless without frame" *
-"Resolution" - "Selected in the bot settings" *
-(if your permission is not available, put the nearest previous one.
-In some cases, you will need to change the monitor resolution in the Windows settings)
-"Format" - "Automatically" *
-```
-
-- #### GTA Video Settings
-```sh
-"The size of the safe zone" is "7/10" * (standard size)
+"Screen type" - "Windowless without frame"
+"Format" - "Automatically"
 ```
 
 ------
@@ -93,22 +79,9 @@ In some cases, you will need to change the monitor resolution in the Windows set
 
 - Why is there no work in the minimized game mode?  
   This function can be detected by an anti-cheat. If you have 2 monitors with a keyboard and mouse, you can install the "Aster" program and create 2 separate workstations.
-
-- A list of resolutions  
-  1280x1024; 1366x768; 1680x1050; 1920x1080; 2560x1440
 ------
 <h2 align="center">Problems with the bot</h2>
 
-### In case of incorrect operation
-  
-Restart your computer.
-  
-------
-### Modified graphics
-  
-If you have modified the image or graphics with third-party software and the bot does not work, disable these modifications.
-  
-------
 ### If all the conditions are met, but the bot continues not to work
   
 1. Press the combination <kbd>Win</kbd> + <kbd>R</kbd>
@@ -134,11 +107,6 @@ If the Windows 11 version is younger than 24H2, then before launching the bot yo
 1. Open the ```"Properties"``` programs (PCM)
 2. Go to the section ```"Compatibility"```
 3. Check the box next to ```"Run this program in compatibility mode for:"``` ```Windows 8```
-
-------
-### Other language
-
-For the script to work, the Majestic settings must have the ```"Russian"``` language.
 
 ------
 

@@ -1,6 +1,6 @@
 # ![Logo](https://github.com/PaulTwelve/AutoFishBot-MajesticRP/assets/102520398/1f08e065-f0cd-40e6-92a5-59b9363a89e7)
 
-## ![Carousel](https://github.com/PaulTwelve/AutoFishBot-MajesticRP/assets/102520398/1b47128f-1854-4313-9d59-29ff9ddfdf14)
+## ![Carousel](https://github.com/user-attachments/assets/e679ac5f-65ec-419a-b1cb-3e970b238e79)
 
 <p align="center">
   <a href="https://github.com/PaulTwelve/AutoFishBot-MajesticRP/raw/main/AutoFishBot.exe"><img src="https://i.ibb.co/XjbvfV5/Download-2.png"  width="30%"/>
@@ -13,6 +13,14 @@
 ------
 <h1 align="center">What is good about AutoFishBot?</h1>
 
+### ***Multifunctional***
+#### AutoFishBot was originally a small intusiast bot that was supposed to make fishing easier, but over the years, thanks to your support and ideas, we have grown from a simple bot into a whole project, so now we have bots for: 
+- #### Fishing
+- #### Oranges
+- #### Sawmill
+- #### Quarry
+- #### And some more works that our testers check.
+------
 ### ***Safe***
 - It is not embedded in the game, except for the anti-cheat ban.
 - It has the function of hiding traces of use, which makes it difficult to detect when checking the PC.
@@ -34,9 +42,6 @@
 - Built-in shutdown timer.
 - Keyboard shortcut to quickly open the main window: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 ------
-<h1 align="center">!!!FISHING IS DISTRIBUTED AMONG ACTIVE USERS!!!</h1>
-
-------
 
 # Tables of contents
 
@@ -51,6 +56,7 @@
 ------
 <h2 align="center">Basic information</h2>
 
+- Turn off Windows Defender.
 - If an antivirus besides Windows Defender is installed on your PC, **log out** of it. (disabling without closing may not produce results)
 - Disable extraneous overlays embedded in the game that may overlap the interaction indicators.
 
@@ -71,7 +77,7 @@
 3. Activate the key in the Telegram bot
 4. Go to the desired AutFishBot section.
 5. Set the start/pause key and click "Save"
-6. Click on the designated "On" button./Off"
+6. Click on the designated button "On/Off"
 7. Approach the interaction area
 
 ------

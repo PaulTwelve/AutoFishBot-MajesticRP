@@ -10,28 +10,28 @@
 <meta property="og:description" content="Universal bot for automating fishing and other jobs. Safe, convenient, efficient.">
 <meta property="og:image" content="https://s.fotora.ru/a2efa7c421a257b6.png">
 <link rel="icon" type="image/png" href="https://s.fotora.ru/a2efa7c421a257b6.png">
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{--primary:#0EA5E9;--primary-dark:#0284C7;--secondary:#38BDF8;--accent:#F97316;--cta:#F97316}
-[data-theme="light"]{--bg:#F0F9FF;--bg-alt:#E0F2FE;--card:#FFFFFF;--card-hover:#F0F9FF;--text:#0C4A6E;--text-light:#475569;--border:rgba(14,165,233,.1);--shadow:0 4px 24px rgba(14,165,233,.06);--shadow-lg:0 12px 48px rgba(14,165,233,.1);--nav-bg:rgba(240,249,255,.88);--glow:rgba(14,165,233,.08);--code-bg:#E0F2FE;--code-text:#0C4A6E;--hero-from:#020b2e;--hero-via:#0369a1;--hero-to:#0EA5E9;--hero-end:#38BDF8;--section-alt:#E0F2FE;--team-avatar:#BAE6FD;--badge-active:#10b981;--badge-left:#ef4444}
-[data-theme="dark"]{--bg:#0F172A;--bg-alt:#1E293B;--card:#1E293B;--card-hover:#334155;--text:#F1F5F9;--text-light:#94A3B8;--border:rgba(255,255,255,.06);--shadow:0 4px 24px rgba(0,0,0,.4);--shadow-lg:0 12px 48px rgba(0,0,0,.5);--nav-bg:rgba(15,23,42,.88);--glow:rgba(14,165,233,.1);--code-bg:#334155;--code-text:#E2E8F0;--hero-from:#020515;--hero-via:#0369a1;--hero-to:#0EA5E9;--hero-end:#38BDF8;--section-alt:#1E293B;--team-avatar:#334155;--badge-active:#059669;--badge-left:#dc2626}
+:root{--primary:#0074FF;--primary-dark:#0056c7;--secondary:#00B4D8;--accent:#48CAE4}
+[data-theme="light"]{--bg:#eef0f5;--bg-alt:#f2f3f7;--card:#f6f7fa;--card-hover:#eff1f5;--text:#1a1f2e;--text-light:#5a6278;--border:rgba(0,0,0,.06);--shadow:0 4px 24px rgba(0,0,0,.04);--shadow-lg:0 12px 48px rgba(0,0,0,.07);--nav-bg:rgba(238,240,245,.88);--glow:rgba(0,116,255,.05);--code-bg:#eceef2;--code-text:#1e293b;--hero-from:#020b2e;--hero-via:#003a8a;--hero-to:#0066dd;--hero-end:#0099bb;--section-alt:#f2f3f7;--team-avatar:#e2e6ed;--badge-active:#10b981;--badge-left:#ef4444;--glass:rgba(246,247,250,.75)}
+[data-theme="dark"]{--bg:#080c1a;--bg-alt:#0c1124;--card:#121b38;--card-hover:#162044;--text:#e2e8f0;--text-light:#8899b4;--border:rgba(255,255,255,.04);--shadow:0 4px 24px rgba(0,0,0,.35);--shadow-lg:0 12px 48px rgba(0,0,0,.45);--nav-bg:rgba(8,12,26,.88);--glow:rgba(0,116,255,.06);--code-bg:#1a2045;--code-text:#c8d6e5;--hero-from:#020515;--hero-via:#002060;--hero-to:#003d99;--hero-end:#006688;--section-alt:#0a0f24;--team-avatar:#1a2045;--badge-active:#059669;--badge-left:#dc2626;--glass:rgba(18,27,56,.55)}
 html{scroll-behavior:smooth}
-body{font-family:'Work Sans','Inter',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden;transition:background .3s,color .3s}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden;transition:background .3s,color .3s}
 a{color:var(--primary);text-decoration:none}
-::selection{background:rgba(14,165,233,.2);color:inherit}
+::selection{background:rgba(0,116,255,.2);color:inherit}
 .container{max-width:1200px;margin:0 auto;padding:0 24px}
 kbd{display:inline-block;padding:2px 8px;border-radius:4px;font-family:inherit;font-size:12px;font-weight:600;background:var(--code-bg);color:var(--code-text);border:1px solid var(--border)}
 ::-webkit-scrollbar{width:6px}
 ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:var(--primary);border-radius:3px}
-nav{position:fixed;top:20px;left:50%;transform:translateX(-50%);z-index:1000;max-width:1100px;width:90%;border-radius:999px;background:rgba(10,15,30,.55);backdrop-filter:blur(24px) saturate(180%);-webkit-backdrop-filter:blur(24px) saturate(180%);border:1px solid rgba(255,255,255,.08);box-shadow:0 8px 40px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.05);height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 36px;transition:all .4s cubic-bezier(.34,1.56,.64,1)}nav:hover{transform:translateX(-50%) scale(1.02);background:rgba(15,22,40,.7);box-shadow:0 8px 50px rgba(14,165,233,.15),0 8px 40px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.08)}
+nav{position:fixed;top:20px;left:50%;transform:translateX(-50%);z-index:1000;max-width:1100px;width:90%;border-radius:999px;background:rgba(10,15,30,.55);backdrop-filter:blur(24px) saturate(180%);-webkit-backdrop-filter:blur(24px) saturate(180%);border:1px solid rgba(255,255,255,.08);box-shadow:0 8px 40px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.05);height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 36px;transition:all .4s cubic-bezier(.34,1.56,.64,1)}nav:hover{transform:translateX(-50%) scale(1.02);background:rgba(15,22,40,.7);box-shadow:0 8px 50px rgba(0,116,255,.12),0 8px 40px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.08)}
 .nav-brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;color:#fff;cursor:pointer}
 .nav-brand img{border-radius:6px}
 .nav-center{display:flex;align-items:center;gap:4px}
 .nav-center a{padding:8px 14px;border-radius:8px;font-size:14px;font-weight:500;color:rgba(255,255,255,.65);cursor:pointer;transition:all .25s}
 .nav-center a:hover,.nav-center a.active{background:rgba(255,255,255,.08);color:#fff}
-.nav-center a.active{background:linear-gradient(135deg,#0EA5E9,#38BDF8);font-weight:600}
+.nav-center a.active{background:linear-gradient(135deg,#0074ff,#00b4d8);font-weight:600}
 .nav-actions{display:flex;align-items:center;gap:8px}
 .theme-btn,.lang-btn{display:flex;align-items:center;justify-content:center;height:38px;border-radius:10px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.06);cursor:pointer;font-size:13px;font-weight:600;font-family:inherit;color:rgba(255,255,255,.7);transition:all .25s}
 .theme-btn{width:44px}
@@ -42,8 +42,8 @@ nav{position:fixed;top:20px;left:50%;transform:translateX(-50%);z-index:1000;max
 .page{display:none;animation:fadePage .35s ease}
 .page.active{display:block}
 @keyframes fadePage{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;position:relative;padding:100px 24px 80px;background:radial-gradient(ellipse at 20% 20%,rgba(14,165,233,.4) 0%,transparent 50%),radial-gradient(ellipse at 80% 80%,rgba(56,189,248,.3) 0%,transparent 50%),radial-gradient(ellipse at 50% 100%,rgba(249,115,22,.1) 0%,transparent 40%),linear-gradient(170deg,rgba(2,11,46,.9) 0%,rgba(7,89,133,.8) 40%,rgba(14,116,144,.65) 70%,rgba(249,115,22,.2) 100%),url('https://s.fotora.ru/9a0da418058eaffe.jpeg') center/cover;overflow:hidden}.hero::after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:220px;background:linear-gradient(to bottom,transparent,var(--bg));pointer-events:none;z-index:3}
-.hero-light{position:absolute;border-radius:50%;opacity:.35;mix-blend-mode:screen;pointer-events:none;transform:translateZ(0)}.hero-light-1{width:500px;height:500px;background:radial-gradient(circle,rgba(56,189,248,.5),transparent);top:-10%;left:-5%}.hero-light-2{width:500px;height:500px;background:radial-gradient(circle,rgba(14,165,233,.4),transparent);bottom:-15%;right:-5%}.hero-light-3{width:400px;height:400px;background:radial-gradient(circle,rgba(249,115,22,.25),transparent);top:40%;left:50%}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;position:relative;padding:100px 24px 80px;background:radial-gradient(ellipse at 20% 20%,rgba(30,58,138,.7) 0%,transparent 45%),radial-gradient(ellipse at 80% 80%,rgba(8,145,178,.55) 0%,transparent 45%),radial-gradient(ellipse at 50% 100%,rgba(120,80,255,.12) 0%,transparent 40%),linear-gradient(170deg,rgba(2,11,46,.85) 0%,rgba(0,58,138,.75) 35%,rgba(0,102,221,.7) 65%,rgba(0,153,187,.65) 100%),url('https://s.fotora.ru/9a0da418058eaffe.jpeg') center/cover;overflow:hidden}.hero::after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:220px;background:linear-gradient(to bottom,transparent,var(--bg));pointer-events:none;z-index:3}
+.hero-light{position:absolute;border-radius:50%;opacity:.35;mix-blend-mode:screen;pointer-events:none;transform:translateZ(0)}.hero-light-1{width:500px;height:500px;background:radial-gradient(circle,rgba(0,180,216,.6),transparent);top:-10%;left:-5%}.hero-light-2{width:500px;height:500px;background:radial-gradient(circle,rgba(0,116,255,.5),transparent);bottom:-15%;right:-5%}.hero-light-3{width:400px;height:400px;background:radial-gradient(circle,rgba(120,80,255,.4),transparent);top:40%;left:50%}
 .hero-bubbles{position:absolute;inset:0;pointer-events:none;overflow:hidden}
 .bubble{position:absolute;border-radius:50%;background:rgba(255,255,255,.04);animation:bubbleUp linear infinite}
 .bubble:nth-child(1){width:12px;height:12px;left:15%;bottom:-20px;animation-duration:8s}
@@ -87,13 +87,13 @@ nav{position:fixed;top:20px;left:50%;transform:translateX(-50%);z-index:1000;max
 .hero-icon{margin-bottom:24px;display:inline-block;animation:fishFloat 4s ease-in-out infinite}
 @keyframes fishFloat{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-10px) rotate(2deg)}}
 .hero-icon img{border-radius:16px}
-.hero h1{font-size:clamp(2.5rem,6vw,7rem);font-weight:900;color:#fff;line-height:1.05;margin-bottom:18px;letter-spacing:-.03em;text-shadow:0 0 30px rgba(14,165,233,.35)}
-.hero h1 span{background:linear-gradient(135deg,#fff 30%,#38BDF8 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero h1{font-size:clamp(42px,8vw,76px);font-weight:900;color:#fff;line-height:1.05;margin-bottom:18px;letter-spacing:-.03em;text-shadow:0 0 30px rgba(0,116,255,.35)}
+.hero h1 span{background:linear-gradient(135deg,#fff 30%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .hero p{font-size:clamp(16px,2.5vw,19px);color:rgba(255,255,255,.78);margin-bottom:36px;max-width:500px;margin-left:auto;margin-right:auto;line-height:1.8}
 .hero-buttons{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 .btn{display:inline-flex;align-items:center;gap:10px;padding:14px 32px;border-radius:12px;font-size:16px;font-weight:600;font-family:inherit;cursor:pointer;transition:all .3s cubic-bezier(.34,1.56,.64,1);border:none;text-decoration:none}
 .btn-primary{background:#fff;color:#0f172a;box-shadow:0 8px 32px rgba(0,0,0,.2)}
-.btn-primary:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 12px 40px rgba(0,0,0,.3),0 0 40px rgba(14,165,233,.35)}
+.btn-primary:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 12px 40px rgba(0,0,0,.3),0 0 40px rgba(0,116,255,.35)}
 .btn-primary svg{width:20px;height:20px}
 .btn-outline{background:rgba(255,255,255,.06);color:#fff;border:1.5px solid rgba(255,255,255,.12);backdrop-filter:blur(4px)}
 .btn-outline:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.25);transform:translateY(-3px) scale(1.02)}
@@ -101,14 +101,14 @@ nav{position:fixed;top:20px;left:50%;transform:translateX(-50%);z-index:1000;max
 .section{padding:90px 0;transition:background .3s}
 .section:nth-child(even){background:var(--section-alt)}
 .section-header{text-align:center;margin-bottom:50px}
-.section-header h2{font-size:clamp(1.8rem,3.5vw,3.5rem);font-weight:900;color:var(--text);margin-bottom:12px;letter-spacing:-.03em;transition:color .3s}
+.section-header h2{font-size:clamp(28px,4vw,40px);font-weight:800;color:var(--text);margin-bottom:12px;letter-spacing:-.02em;transition:color .3s}
 .section-header p{color:var(--text-light);font-size:17px;max-width:560px;margin:0 auto;transition:color .3s}
 .section-label{display:inline-flex;align-items:center;gap:6px;padding:6px 16px;border-radius:20px;background:var(--glow);color:var(--primary);font-size:13px;font-weight:600;margin-bottom:16px;transition:background .3s}
 .features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
-.feature-card{background:var(--card);border-radius:16px;padding:32px 28px;border:1px solid var(--border);box-shadow:var(--shadow);transition:all .35s cubic-bezier(.34,1.56,.64,1);opacity:0;transform:translateY(30px);position:relative;overflow:hidden}
-.feature-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#0EA5E9,#38BDF8);opacity:0;transition:opacity .35s}.feature-card::after{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.06),transparent);transition:left .6s cubic-bezier(.34,1.56,.64,1);pointer-events:none}.feature-card:hover::after{left:100%}
+.feature-card{background:var(--glass);backdrop-filter:blur(16px) saturate(180%);-webkit-backdrop-filter:blur(16px) saturate(180%);border-radius:16px;padding:32px 28px;border:1px solid rgba(255,255,255,.08);transition:all .35s cubic-bezier(.34,1.56,.64,1);opacity:0;transform:translateY(30px);position:relative;overflow:hidden}
+.feature-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#0074ff,#00b4d8);opacity:0;transition:opacity .35s}.feature-card::after{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.06),transparent);transition:left .6s cubic-bezier(.34,1.56,.64,1);pointer-events:none}.feature-card:hover::after{left:100%}
 .feature-card.visible{opacity:1;transform:translateY(0)}
-.feature-card:hover{transform:translateY(-6px);border-color:rgba(14,165,233,.3);box-shadow:0 12px 48px rgba(0,0,0,.3),0 0 30px rgba(14,165,233,.12)}
+.feature-card:hover{transform:translateY(-6px);border-color:rgba(0,116,255,.3);box-shadow:0 12px 48px rgba(0,0,0,.3),0 0 30px rgba(0,116,255,.08)}
 .feature-card:hover::before{opacity:1}
 .feature-card:hover .feature-icon{transform:scale(1.1)}
 .feature-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:18px;transition:transform .3s}
@@ -125,7 +125,7 @@ nav{position:fixed;top:20px;left:50%;transform:translateX(-50%);z-index:1000;max
 .setup-steps::before{content:'';position:absolute;left:19px;top:8px;bottom:8px;width:2px;background:linear-gradient(to bottom,var(--primary),var(--secondary),transparent);opacity:.3;transition:background .3s}
 .setup-step{display:flex;gap:20px;margin-bottom:28px;opacity:0;transform:translateX(-20px);transition:all .5s cubic-bezier(.34,1.56,.64,1)}
 .setup-step.visible{opacity:1;transform:translateX(0)}
-.step-num{flex-shrink:0;width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;font-weight:800;font-size:15px;display:flex;align-items:center;justify-content:center;position:relative;z-index:1;box-shadow:0 0 0 4px var(--section-alt),0 4px 12px rgba(14,165,233,.3);transition:box-shadow .3s,background .3s}
+.step-num{flex-shrink:0;width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;font-weight:800;font-size:15px;display:flex;align-items:center;justify-content:center;position:relative;z-index:1;box-shadow:0 0 0 4px var(--section-alt),0 4px 12px rgba(0,116,255,.2);transition:box-shadow .3s,background .3s}
 .setup-step .step-content{background:var(--card);border-radius:12px;padding:16px 22px;flex:1;border:1px solid var(--border);transition:all .3s;transition:background .3s,border-color .3s}
 .setup-step .step-content h3{font-size:16px;font-weight:700;color:var(--text);margin-bottom:4px;transition:color .3s}
 .setup-step .step-content p{font-size:14px;color:var(--text-light);line-height:1.6;transition:color .3s}
@@ -154,8 +154,8 @@ footer{text-align:center;padding:36px 24px;color:var(--text-light);font-size:13p
 .faq-answer{max-height:0;overflow:hidden;transition:max-height .35s ease,padding .35s ease;padding:0 22px;font-size:14px;color:var(--text-light);line-height:1.7;transition:color .3s,max-height .35s ease,padding .35s ease}
 .faq-item.open .faq-answer{max-height:500px;padding:0 22px 18px}
 .faq-support{text-align:center;margin-top:24px}
-.support-btn{display:inline-flex;align-items:center;gap:10px;padding:14px 28px;border-radius:12px;background:var(--primary);color:#fff;font-weight:600;font-size:15px;font-family:inherit;text-decoration:none;transition:all .3s cubic-bezier(.34,1.56,.64,1);box-shadow:0 4px 20px rgba(14,165,233,.3)}
-.support-btn:hover{transform:translateY(-3px);box-shadow:0 8px 32px rgba(14,165,233,.4)}
+.support-btn{display:inline-flex;align-items:center;gap:10px;padding:14px 28px;border-radius:12px;background:var(--primary);color:#fff;font-weight:600;font-size:15px;font-family:inherit;text-decoration:none;transition:all .3s cubic-bezier(.34,1.56,.64,1);box-shadow:0 4px 20px rgba(0,116,255,.25)}
+.support-btn:hover{transform:translateY(-3px);box-shadow:0 8px 32px rgba(0,116,255,.35)}
 .donate-buttons{display:flex;flex-direction:column;gap:14px;max-width:420px;margin:0 auto}
 .donate-btn{display:flex;align-items:center;justify-content:center;gap:12px;padding:20px 28px;border-radius:14px;font-weight:600;font-size:16px;font-family:inherit;cursor:pointer;border:none;text-decoration:none;color:#fff;text-align:center;transition:all .3s cubic-bezier(.34,1.56,.64,1);box-shadow:0 4px 20px rgba(0,0,0,.15)}
 .donate-btn:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 8px 32px rgba(0,0,0,.25)}
@@ -197,10 +197,10 @@ footer{text-align:center;padding:36px 24px;color:var(--text-light);font-size:13p
 .mobile-menu-header{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:24px;font-size:18px;font-weight:800;color:var(--text);transition:color .3s}
 .mobile-menu-links{display:flex;flex-direction:column;gap:8px}
 .mobile-menu-links a{padding:14px 20px;border-radius:12px;font-size:16px;font-weight:600;color:var(--text);background:var(--bg-alt);transition:all .25s;text-decoration:none;cursor:pointer}
-.mobile-menu-links a:hover,.mobile-menu-links a.active{background:linear-gradient(135deg,#0EA5E9,#38BDF8);color:#fff}
-.scroll-top{position:fixed;bottom:28px;right:28px;z-index:100;width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(14,165,233,.3);opacity:0;visibility:hidden;transform:translateY(12px);transition:all .35s cubic-bezier(.34,1.56,.64,1)}
+.mobile-menu-links a:hover,.mobile-menu-links a.active{background:linear-gradient(135deg,#0074ff,#00b4d8);color:#fff}
+.scroll-top{position:fixed;bottom:28px;right:28px;z-index:100;width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,116,255,.3);opacity:0;visibility:hidden;transform:translateY(12px);transition:all .35s cubic-bezier(.34,1.56,.64,1)}
 .scroll-top.visible{opacity:1;visibility:visible;transform:translateY(0)}
-.scroll-top:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(14,165,233,.4)}
+.scroll-top:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,116,255,.4)}
 .scroll-top svg{width:20px;height:20px}
 @keyframes pageFadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 .page-content{animation:pageFadeIn .4s ease}
@@ -209,9 +209,7 @@ body.page-exit{opacity:0;transition:opacity .2s ease}
 .error-title{font-size:clamp(22px,4vw,32px);font-weight:700;color:var(--text);margin-bottom:12px;transition:color .3s}
 .error-desc{font-size:16px;color:var(--text-light);max-width:400px;margin:0 auto 32px;line-height:1.7;transition:color .3s}
 .error-boat{font-size:60px;margin-bottom:20px;display:inline-block;animation:fishFloat 3s ease-in-out infinite}
-@media (max-width: 768px){nav{min-width:auto;max-width:calc(100% - 32px);padding:0 16px;height:50px;top:12px}.nav-center{display:none}.hamburger{display:flex}.hero{padding:80px 20px 60px}.section{padding:56px 0}.features-grid,.links-grid,.team-grid{grid-template-columns:1fr}.setup-step .step-num{width:34px;height:34px;font-size:13px}.setup-steps::before{left:16px}.hero-light{opacity:.1}.donate-buttons{max-width:100%}.scroll-top{bottom:16px;right:16px;width:42px;height:42px}.scroll-top svg{width:18px;height:18px}}
-h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
-*:focus-visible{outline:2px solid var(--cta);outline-offset:2px;border-radius:4px}
+@media(max-width:768px){nav{min-width:auto;max-width:calc(100% - 32px);padding:0 16px;height:50px;top:12px}.nav-center{display:none}.hamburger{display:flex}.hero{padding:80px 20px 60px}.section{padding:56px 0}.features-grid,.links-grid,.team-grid{grid-template-columns:1fr}.setup-step .step-num{width:34px;height:34px;font-size:13px}.setup-steps::before{left:16px}.hero-light{opacity:.1}.donate-buttons{max-width:100%}.scroll-top{bottom:16px;right:16px;width:42px;height:42px}.scroll-top svg{width:18px;height:18px}}
 </style>
 </head>
 <body>
@@ -219,7 +217,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
 
 <nav>
   <div class="nav-brand" onclick="switchPage('home')">
-    <img src="https://s.fotora.ru/a2efa7c421a257b6.png" alt="AutoFishBot" style="width:28px;height:28px">
+    <img src="https://s.fotora.ru/a2efa7c421a257b6.png" alt="AutoFishBot" style="width:28px;height:28px" loading="lazy">
     AutoFishBot
   </div>
   <div class="nav-center">
@@ -255,7 +253,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
 <div class="mobile-overlay" id="mobileMenu" onclick="if(event.target===this)toggleMobileMenu()">
   <div class="mobile-menu" onclick="event.stopPropagation()">
     <div class="mobile-menu-header">
-      <img src="https://s.fotora.ru/a2efa7c421a257b6.png" alt="AutoFishBot" style="width:32px;height:32px;border-radius:8px" >
+      <img src="https://s.fotora.ru/a2efa7c421a257b6.png" alt="AutoFishBot" style="width:32px;height:32px;border-radius:8px" loading="lazy">
       <span>AutoFishBot</span>
     </div>
     <div class="mobile-menu-links">
@@ -278,7 +276,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
   <div class="hero-bubbles"><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div><div class="bubble"></div></div>
   <div class="hero-content">
     <div class="hero-icon">
-      <img src="https://s.fotora.ru/a2efa7c421a257b6.png" alt="AutoFishBot" style="width:80px;height:80px">
+      <img src="https://s.fotora.ru/a2efa7c421a257b6.png" alt="AutoFishBot" style="width:80px;height:80px" loading="lazy">
     </div>
     <h1><span data-key="hero_title">AutoFishBot</span></h1>
     <p data-key="hero_desc">Универсальный бот для автоматизации рыбалки и других работ. Безопасно, удобно, эффективно.</p>
@@ -347,7 +345,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
       </div>
     </div>
     <div class="showcase-img fade-in">
-      <img src="https://s.fotora.ru/f56ee05932861f01.gif" alt="AutoFishBot приложение" style="max-width:90%;border-radius:16px;box-shadow:0 12px 48px rgba(0,0,0,.3)" >
+      <img src="https://s.fotora.ru/f56ee05932861f01.gif" alt="AutoFishBot приложение" style="max-width:90%;border-radius:16px;box-shadow:0 12px 48px rgba(0,0,0,.3)" loading="lazy">
     </div>
   </div>
 </section>
@@ -536,11 +534,11 @@ h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
       <p data-key="donate_desc">Ваша поддержка помогает проекту развиваться. Спасибо, что вы с нами!</p>
     </div>
     <div class="donate-buttons fade-in">
-      <a href="https://yoomoney.ru/to/4100118341509342" target="_blank" class="donate-btn" style="background:linear-gradient(135deg,#F97316,#FB923C)">
+      <a href="https://yoomoney.ru/to/4100118341509342" target="_blank" class="donate-btn" style="background:linear-gradient(135deg,#0074FF,#00B4D8)">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:28px;height:28px"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
         <span data-key="donate_yoomoney">YooMoney</span>
       </a>
-      <a href="https://boosty.to/paultwelve" target="_blank" class="donate-btn" style="background:linear-gradient(135deg,#F97316,#FB923C)">
+      <a href="https://boosty.to/paultwelve" target="_blank" class="donate-btn" style="background:linear-gradient(135deg,#7C3AED,#A855F7)">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:28px;height:28px"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
         <span data-key="donate_boosty2">Boosty (Подписка)</span>
       </a>
@@ -560,7 +558,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
     </div>
     <div class="team-grid">
       <div class="team-card fade-up">
-        <div class="team-avatar"><img src="https://s.fotora.ru/dcc83de4727de81f.jpeg" alt="PaulTwelve" ></div>
+        <div class="team-avatar"><img src="https://s.fotora.ru/dcc83de4727de81f.jpeg" alt="PaulTwelve" loading="lazy"></div>
         <div class="team-info">
           <h3>PaulTwelve</h3>
           <span class="team-role" data-key="team_role1">Разраб</span>
@@ -568,7 +566,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
         </div>
       </div>
       <div class="team-card fade-up">
-        <div class="team-avatar"><img src="https://s.fotora.ru/3b93c39c163b5c09.jpeg" alt="KleoFox" ></div>
+        <div class="team-avatar"><img src="https://s.fotora.ru/3b93c39c163b5c09.jpeg" alt="KleoFox" loading="lazy"></div>
         <div class="team-info">
           <h3>KleoFox</h3>
           <span class="team-role" data-key="team_role2">Контент и SMM-менеджер, Графический дизайнер</span>
@@ -584,7 +582,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
         </div>
       </div>
       <div class="team-card fade-up">
-        <div class="team-avatar"><img src="https://s.fotora.ru/292b80e289b8b122.jpeg" alt="Чебупель" ></div>
+        <div class="team-avatar"><img src="https://s.fotora.ru/292b80e289b8b122.jpeg" alt="Чебупель" loading="lazy"></div>
         <div class="team-info">
           <h3>Чебупель</h3>
           <span class="team-role" data-key="team_role4">Админ чатов</span>
@@ -592,7 +590,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
         </div>
       </div>
       <div class="team-card fade-up">
-        <div class="team-avatar"><img src="https://s.fotora.ru/52568d7edf2954f7.jpeg" alt="EWEE" ></div>
+        <div class="team-avatar"><img src="https://s.fotora.ru/52568d7edf2954f7.jpeg" alt="EWEE" loading="lazy"></div>
         <div class="team-info">
           <h3>EWEE</h3>
           <span class="team-role" data-key="team_role5">Fullstack Master</span>
@@ -600,7 +598,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
         </div>
       </div>
       <div class="team-card fade-up">
-        <div class="team-avatar"><img src="https://s.fotora.ru/aa43698f53d2f089.jpeg" alt="/. DEV .\" ></div>
+        <div class="team-avatar"><img src="https://s.fotora.ru/aa43698f53d2f089.jpeg" alt="/. DEV .\" loading="lazy"></div>
         <div class="team-info">
           <h3>/. DEV .\</h3>
           <span class="team-role" data-key="team_role6">Техническая поддержка</span>
@@ -608,7 +606,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
         </div>
       </div>
       <div class="team-card fade-up">
-        <div class="team-avatar"><img src="https://s.fotora.ru/61e0e26c41982666.jpeg" alt="KitKat" ></div>
+        <div class="team-avatar"><img src="https://s.fotora.ru/61e0e26c41982666.jpeg" alt="KitKat" loading="lazy"></div>
         <div class="team-info">
           <h3>KitKat</h3>
           <span class="team-role" data-key="team_role7">Дизайнер</span>
@@ -622,7 +620,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
 <div class="page" id="page-404">
   <div style="min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:100px 24px">
     <div>
-      <div class="error-boat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:64px;height:64px;color:var(--primary)"><path d="M2 16s3-7 9-7 9 7 9 7-3 7-9 7-9-7-9-7z"/><path d="M17 11l5-3v8l-5-3z"/><circle cx="7" cy="15.5" r=".8" fill="currentColor" stroke="none"/></svg></div>
+      <div class="error-boat">🐟</div>
       <div class="error-code">404</div>
       <div class="error-title">Страница не найдена</div>
       <p class="error-desc">Кажется, эта страница уплыла. Но главная всё ещё здесь!</p>
@@ -666,21 +664,16 @@ h1,h2,h3,h4,h5,h6{font-family:'Outfit','Inter',system-ui,sans-serif}
 <script>
 const translations={ru:{nav_home:'Главная',nav_faq:'Проблемы с ботом',nav_donate:'Донат',nav_team:'Команда',hero_title:'AutoFishBot',hero_desc:'Универсальный бот для автоматизации рыбалки и других работ. Безопасно, удобно, эффективно.',hero_download:'Скачать',hero_telegram:'Telegram',hero_github:'GitHub',features_label:'Почему AutoFishBot?',features_title:'Чем хорош AutoFishBot?',features_desc:'Проект вырос из маленького скрипта в многофункциональное решение благодаря сообществу.',feat1_title:'Многофункциональный',feat1_1:'Рыбалка',feat1_2:'Сбор апельсинов',feat1_3:'Лесоруб',feat1_4:'Карьерщик',feat1_5:'И другие работы в разработке',feat2_title:'Безопасный',feat2_1:'Не внедряется в игру исключает бан античитом',feat2_2:'Скрытие следов использования',feat2_3:'Распространяется через Telegram',feat2_4:'Написан на AutoHotkey (C++)',feat2_5:'Только стандартные DLL Windows',feat3_title:'Гибкий',feat3_1:'Постоянные обновления и онлайн-поддержка',feat3_2:'Автоматическое обновление',feat3_3:'Поддержка нескольких мониторов (Aster)',feat3_4:'Работает с графическими модами (Redux)',feat3_5:'Моментальная активация новых пользователей',feat4_title:'Удобный',feat4_1:'Интуитивный интерфейс',feat4_2:'Настройка горячих клавиш',feat4_3:'Автоматическая остановка',feat4_4:'Встроенный таймер выключения',feat4_5:'Быстрое открытие: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>',setup_label:'Настройка',setup_title:'Установка и запуск',setup_desc:'Следуйте этим шагам, чтобы начать пользоваться ботом за несколько минут.',step1_title:'Скачайте бота',step1_desc:'Нажмите кнопку «Скачать» или перейдите в наш Telegram-канал.',step2_title:'Отключите антивирус',step2_desc:'Антивирус может блокировать работу бота (ложное срабатывание из-за эмуляции ввода).',step3_title:'Настройте игру',step3_desc:'Скопируйте настройки графики, <kbd>ESC</kbd> → <kbd>Настройки</kbd> → <kbd>Графика</kbd>.',step4_title:'Запустите от имени администратора',step4_desc:'Правый клик на <kbd>AutoFishBot.exe</kbd> → «Запуск от имени администратора».',step5_title:'Откройте меню',step5_desc:'Нажмите <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd> появится интерфейс управления.',step6_title:'Выберите режим',step6_desc:'Рыбалка, апельсины, лесоруб или карьер на ваш выбор.',step7_title:'Готово!',step7_desc:'Наслаждайтесь автоматизацией. Бот работает стабильно и эффективно!',settings_label:'Настройки',settings_title:'Рекомендуемые настройки',settings_desc:'Бот работает на многих разрешениях и любом качестве',settings_av1:'Качество графики:',settings_av2:'Разрешение экрана:',settings_av3:'Потоков рендеринга:',settings_av4:'Мультипоточная оптимизация:',settings_av5:'Тип окна:',settings_av6:'Вертикальная синхронизация:',settings_av1_val:'Мин./Низкое',settings_av2_val:'1920x1080',settings_av3_val:'Рек. системой',settings_av4_val:'Вкл.',settings_av5_val:'В окне без рамки',settings_av6_val:'Выкл.',links_label:'Страницы',links_title:'Полезные страницы',links_faq_title:'Проблемы с ботом',links_faq_desc:'Решение проблем и ответы на вопросы',links_donate_title:'Донат',links_donate_desc:'Поддержать проект',links_team_title:'Команда',links_team_desc:'Разработчики проекта',links_bot_title:'Telegram Бот',links_bot_desc:'Запустить бота',faq_label:'Проблемы с ботом',faq_title:'Часто задаваемые вопросы',faq1_q:'Что делать, если бот не запускается?',faq1_a:'Проверьте, что вы запустили бота <strong>от имени администратора</strong>. Также убедитесь, что антивирус полностью отключён &mdash; бот использует эмуляцию ввода, что может вызывать ложные срабатывания.',faq2_q:'Какие настройки графики нужны?',faq2_a:'Тип экрана «В окне без рамки». Вертикальную синхронизацию отключите. Формат «21:9» не поддерживается. Поставьте «16:9». Если у вас бот не работает с Redux или фильтрами Nvidia &mdash; отключите их.',faq3_q:'Бот может только рыбачить?',faq3_a:'Нет, бот универсальный. Название «AutoFishBot» отражает основную функцию, но бот умеет выполнять разные виды работ.',faq4_q:'Как обновить бота?',faq4_a:'Бот обновляется автоматически. Просто запустите последнюю версию &mdash; она сама проверит обновления. Также вы всегда можете скачать актуальную версию в нашем Telegram-канале или через кнопку «Скачать» на главной странице.',faq5_q:'Windows 11',faq5_a:'Если версия Windows 11 младше 24H2, то перед запуском бота нужно:<br><br>Открываете «Свойства» программы (ПКМ)<br>Переходите в раздел «Совместимость»<br>Поставьте галочку рядом с «Запустите эту программу в режиме совместимости для:» Windows 8',faq_support:'Техническая поддержка',donate_label:'Донат',donate_title:'Поддержать проект',donate_desc:'Ваша поддержка помогает проекту развиваться. Спасибо, что вы с нами!',donate_yoomoney:'YooMoney',donate_boosty1:'Boosty (Донат)',donate_boosty2:'Boosty (Подписка)',team_label:'Команда',team_title:'Наша команда',team_desc:'Люди, которые делают этот проект возможным.',team_role1:'Разраб',team_role2:'Контент и SMM-менеджер, Графический дизайнер',team_role3:'Техническая поддержка',team_role4:'Админ чатов',team_role5:'Fullstack Master',team_role6:'Техническая поддержка',team_role7:'Дизайнер',team_status1:'В проекте',team_status2:'В проекте',team_status3:'В проекте',team_status4:'В проекте',team_status5:'В проекте',team_status6:'Покинул',team_status7:'Покинул',footer_year:'2025',footer_text:'Сделано с любовью','404_title':'Страница не найдена','404_desc':'Кажется, эта страница уплыла. Но главная всё ещё здесь!','404_home':'На главную'},
 en:{nav_home:'Home',nav_faq:'Bot Issues',nav_donate:'Donate',nav_team:'Team',hero_title:'AutoFishBot',hero_desc:'Universal bot for automating fishing and other jobs. Safe, convenient, efficient.',hero_download:'Download',hero_telegram:'Telegram',hero_github:'GitHub',features_label:'Why AutoFishBot?',features_title:'What makes AutoFishBot great?',features_desc:'The project grew from a small script into a multi-functional solution thanks to the community.',feat1_title:'Multi-functional',feat1_1:'Fishing',feat1_2:'Orange picking',feat1_3:'Lumberjack',feat1_4:'Quarry worker',feat1_5:'Other jobs in development',feat2_title:'Safe',feat2_1:'Does not inject into the game no anticheat ban',feat2_2:'Hides usage traces',feat2_3:'Distributed via Telegram',feat2_4:'Written in AutoHotkey (C++)',feat2_5:'Standard Windows DLLs only',feat3_title:'Flexible',feat3_1:'Regular updates and online support',feat3_2:'Auto-update',feat3_3:'Multi-monitor support (Aster)',feat3_4:'Works with graphic mods (Redux)',feat3_5:'Instant activation for new users',feat4_title:'Convenient',feat4_1:'Intuitive interface',feat4_2:'Hotkey configuration',feat4_3:'Auto-stop',feat4_4:'Built-in shutdown timer',feat4_5:'Quick open: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>',setup_label:'Setup',setup_title:'Installation & Launch',setup_desc:'Follow these steps to start using the bot in minutes.',step1_title:'Download the bot',step1_desc:'Click the "Download" button or join our Telegram channel.',step2_title:'Disable antivirus',step2_desc:'Antivirus may block the bot (false positive due to input emulation).',step3_title:'Configure the game',step3_desc:'Copy the graphics settings: <kbd>ESC</kbd> → <kbd>Settings</kbd> → <kbd>Graphics</kbd>.',step4_title:'Run as administrator',step4_desc:'Right-click <kbd>AutoFishBot.exe</kbd> → "Run as administrator".',step5_title:'Open the menu',step5_desc:'Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd> the control interface appears.',step6_title:'Choose a mode',step6_desc:'Fishing, oranges, lumberjack, or quarry your choice.',step7_title:'Done!',step7_desc:'Enjoy automation. The bot works stably and efficiently!',settings_label:'Settings',settings_title:'Recommended settings',settings_desc:'The bot works on many resolutions and any quality',settings_av1:'Graphics quality:',settings_av2:'Screen resolution:',settings_av3:'Render threads:',settings_av4:'Multi-threaded optimization:',settings_av5:'Window mode:',settings_av6:'Vertical sync:',settings_av1_val:'Min./Low',settings_av2_val:'1920x1080',settings_av3_val:'System recommended',settings_av4_val:'On',settings_av5_val:'Windowed (borderless)',settings_av6_val:'Off',links_label:'Pages',links_title:'Useful Pages',links_faq_title:'Bot Issues',links_faq_desc:'Solutions and answers',links_donate_title:'Donate',links_donate_desc:'Support the project',links_team_title:'Team',links_team_desc:'Project developers',links_bot_title:'Telegram Bot',links_bot_desc:'Launch the bot',faq_label:'Bot Issues',faq_title:'Frequently Asked Questions',faq1_q:"What if the bot doesn't start?",faq1_a:'Make sure you run the bot <strong>as administrator</strong>. Also ensure your antivirus is completely disabled &mdash; the bot uses input emulation which can trigger false positives.',faq2_q:'What graphics settings are needed?',faq2_a:'Screen mode: "Borderless window". Disable vertical sync. "21:9" format is not supported. Set "16:9". If the bot doesn\'t work with Redux or Nvidia filters &mdash; disable them.',faq3_q:'Can the bot only fish?',faq3_a:'No, the bot is universal. The name "AutoFishBot" reflects the main function, but the bot can perform various types of work.',faq4_q:'How do I update the bot?',faq4_a:'The bot updates automatically. Just launch the latest version &mdash; it checks for updates on startup. You can also always download the latest version from our Telegram channel or the "Download" button on the main page.',faq5_q:'Windows 11',faq5_a:'If your Windows 11 version is older than 24H2, before launching the bot:<br><br>Open program "Properties" (right-click)<br>Go to the "Compatibility" section<br>Check "Run this program in compatibility mode for:" Windows 8',faq_support:'Tech Support',donate_label:'Donate',donate_title:'Support the Project',donate_desc:'Your support helps the project grow. Thank you for being with us!',donate_yoomoney:'YooMoney',donate_boosty1:'Boosty (Donate)',donate_boosty2:'Boosty (Subscription)',team_label:'Team',team_title:'Our Team',team_desc:'The people who make this project possible.',team_role1:'Dev',team_role2:'Content & SMM Manager, Graphic Designer',team_role3:'Tech Support',team_role4:'Chat Admin',team_role5:'Fullstack Master',team_role6:'Tech Support',team_role7:'Designer',team_status1:'Active',team_status2:'Active',team_status3:'Active',team_status4:'Active',team_status5:'Active',team_status6:'Left',team_status7:'Left',footer_year:'2025',footer_text:'Made with love','404_title':'Page not found','404_desc':'Looks like this page swam away. But the homepage is still here!','404_home':'Go home'}};
-let currentLang='ru',currentTheme='light';
-try{currentLang=localStorage.getItem('lang')||'ru';currentTheme=localStorage.getItem('theme')||'light'}catch(e){}
-function lsSet(k,v){try{localStorage.setItem(k,v)}catch(e){}}
-function applyLang(lang){const t=translations[lang];document.querySelectorAll('[data-key]').forEach(el=>{const key=el.dataset.key;if(t[key]!==undefined){if(key.startsWith('step')||key.startsWith('faq')||key.startsWith('settings_av')||key.startsWith('feat')||key.startsWith('team')){el.innerHTML=t[key]}else{el.textContent=t[key]}}});document.getElementById('lang-label').textContent=lang==='ru'?'EN':'RU';currentLang=lang;lsSet('lang',lang)}
+let currentLang=localStorage.getItem('lang')||'ru';let currentTheme=localStorage.getItem('theme')||'light';
+function applyLang(lang){const t=translations[lang];document.querySelectorAll('[data-key]').forEach(el=>{const key=el.dataset.key;if(t[key]!==undefined){if(key.startsWith('step')||key.startsWith('faq')||key.startsWith('settings_av')||key.startsWith('feat')||key.startsWith('team')){el.innerHTML=t[key]}else{el.textContent=t[key]}}});document.getElementById('lang-label').textContent=lang==='ru'?'EN':'RU';currentLang=lang;localStorage.setItem('lang',lang)}
 function toggleLang(){applyLang(currentLang==='ru'?'en':'ru')}
-function applyTheme(theme){document.documentElement.setAttribute('data-theme',theme);const sun=document.querySelector('.icon-sun');const moon=document.querySelector('.icon-moon');if(theme==='dark'){sun.style.display='none';moon.style.display='block'}else{sun.style.display='block';moon.style.display='none'}currentTheme=theme;lsSet('theme',theme)}
+function applyTheme(theme){document.documentElement.setAttribute('data-theme',theme);const sun=document.querySelector('.icon-sun');const moon=document.querySelector('.icon-moon');if(theme==='dark'){sun.style.display='none';moon.style.display='block'}else{sun.style.display='block';moon.style.display='none'}currentTheme=theme;localStorage.setItem('theme',theme)}
 function toggleTheme(){applyTheme(currentTheme==='light'?'dark':'light')}
 function switchPage(name){document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));const page=document.getElementById('page-'+name);if(page){page.classList.add('active')}document.querySelectorAll('.nav-center a').forEach(a=>a.classList.remove('active'));document.querySelectorAll('.nav-center a').forEach(a=>{if(a.getAttribute('data-key')==='nav_'+name)a.classList.add('active')});const overlay=document.getElementById('mobileMenu');if(overlay)overlay.classList.remove('open');window.scrollTo({top:0,behavior:'smooth'});setTimeout(()=>initObserver(),100)}
 function toggleFaq(el){const item=el.parentElement;item.classList.toggle('open')}
 function toggleMobileMenu(){const overlay=document.getElementById('mobileMenu');const hamburger=document.querySelector('.hamburger');overlay.classList.toggle('open');document.body.style.overflow=overlay.classList.contains('open')?'hidden':'';if(hamburger)hamburger.classList.toggle('active')}
 function initObserver(){const els=document.querySelectorAll('.page.active .fade-in, .page.active .fade-up, .page.active .slide-right, .page.active .scale-in, .page.active .stagger-1, .page.active .stagger-2, .page.active .stagger-3, .page.active .stagger-4, .page.active .stagger-5, .page.active .stagger-6, .page.active .stagger-7');const observer=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}})},{threshold:.1});els.forEach(el=>observer.observe(el))}
-try{applyLang(currentLang);applyTheme(currentTheme);initObserver();}catch(e){}
-try{
-let mx=.5,my=.5,sy=0;const glowEls=()=>document.querySelectorAll(".hero-light");document.addEventListener("mousemove",(e)=>{mx=e.clientX/window.innerWidth;my=e.clientY/window.innerHeight});window.addEventListener("scroll",()=>{sy=window.scrollY;const btn=document.querySelector('.scroll-top');if(btn)btn.classList.toggle('visible',window.scrollY>400);const hero=document.querySelector('.hero');if(hero&&window.scrollY<window.innerHeight){const ct=hero.querySelector('.hero-content');const bb=hero.querySelector('.hero-bubbles');if(ct)ct.style.transform=`translateY(${-window.scrollY*.12}px)`;if(bb)bb.style.transform=`translateY(${-window.scrollY*.2}px)`}});(function glowLoop(){glowEls().forEach((el,i)=>{const t=Date.now()/1000;const ax=Math.sin(t*.04+i*2)*18;const ay=Math.cos(t*.05+i*3)*14;const s=(i+1)*6;const sc=(i+1)*.06;el.style.transform=`translate(${(mx-.5)*s+ax}px,${(my-.5)*s+sy*sc+ay}px)`});requestAnimationFrame(glowLoop)})();
-}catch(e){}
+applyLang(currentLang);applyTheme(currentTheme);initObserver();let mx=.5,my=.5,sy=0;const glowEls=()=>document.querySelectorAll(".hero-light");document.addEventListener("mousemove",(e)=>{mx=e.clientX/window.innerWidth;my=e.clientY/window.innerHeight});window.addEventListener("scroll",()=>{sy=window.scrollY;const btn=document.querySelector('.scroll-top');if(btn)btn.classList.toggle('visible',window.scrollY>400);const hero=document.querySelector('.hero');if(hero&&window.scrollY<window.innerHeight){const ct=hero.querySelector('.hero-content');const bb=hero.querySelector('.hero-bubbles');if(ct)ct.style.transform=`translateY(${-window.scrollY*.12}px)`;if(bb)bb.style.transform=`translateY(${-window.scrollY*.2}px)`}});(function glowLoop(){glowEls().forEach((el,i)=>{const t=Date.now()/1000;const ax=Math.sin(t*.04+i*2)*18;const ay=Math.cos(t*.05+i*3)*14;const s=(i+1)*6;const sc=(i+1)*.06;el.style.transform=`translate(${(mx-.5)*s+ax}px,${(my-.5)*s+sy*sc+ay}px)`});requestAnimationFrame(glowLoop)})();
 </script>
 </body>
 </html>

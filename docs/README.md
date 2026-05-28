@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="docs/READMEeng.md">Guide in English</a>
+  <a href="READMEeng.md">Guide in English</a>
 </p>
 
 <p align="center">

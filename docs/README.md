@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="GitHub/READMEeng.md">Guide in English</a>
+  <a href="docs/READMEeng.md">Guide in English</a>
 </p>
 
 <p align="center">
